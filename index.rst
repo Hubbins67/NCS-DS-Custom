@@ -1,4 +1,4 @@
-.. title:: Nutanix Files Bootcamp
+.. title:: NCS-DS
 
 .. toctree::
   :maxdepth: 2
@@ -6,6 +6,10 @@
   :name: _files_labs
   :hidden:
 
+  files_deploy/files_deploy
+  objects_deploy/objects_deploy
+  tools_vms/windows_tools_vm
+  tools_vms/linux_tools_vm
   files_smb_share/files_smb_share
   files_nfs_export/files_nfs_export
   files_file_blocking/files_file_blocking
@@ -31,33 +35,13 @@
    objects_cli_scripts/objects_cli_scripts
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Bonus Labs
-   :name: _bonus
-   :hidden:
-
-   peer/peer
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  files_deploy/files_deploy
-  file_analytics_deploy/file_analytics_deploy
-  files_expand_cluster/files_expand_cluster
-  objects_deploy/objects_deploy
-
-.. toctree::
   :maxdepth: 2
   :caption: Appendix
   :name: _appendix
   :hidden:
 
   appendix/glossary
-  tools_vms/windows_tools_vm
-  tools_vms/linux_tools_vm
+  
 
 .. _getting_started:
 
@@ -65,7 +49,7 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix Consolidated Storage Bootcamp!
+Welcome to the NCS-DS Workshop!
 
 This workbook accompanies an instructor-led session that introduces Nutanix Files, File Analytics, Objects, and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
 
